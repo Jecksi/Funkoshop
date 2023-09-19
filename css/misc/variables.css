@@ -10,14 +10,19 @@
     --secondary-500: rgb(29, 132, 181, 0.5);
     --secondary-300: rgb(29, 132, 181, 0.3);
 
-    --dark-solid: #30343F;
+    --dark-solid: #1F1F1F;
+    --dark-900: rgb(31, 31, 31, 0.9);
+    --dark-500: rgb(31, 31, 31, 0.5);
+    --dark-300: rgb(31, 31, 31, 0.3);
+
+    --dark-bg-solid: #30343F;
     --light-bg-solid: #F4FAFF;
     --light-font-solid: #FFFFFF;
 
 
     /* Typography */
-    --base-font: 
-    --alternative-font:
+    --base-font: 'Inter', sans-serif;
+    --alternative-font: 'Raleway', sans-serif;
 
     /* Font-sizes */
     --font-display: 4.6em;
@@ -33,7 +38,12 @@
     --spacing-68: 6.8rem;
     --spacing-48: 4.8rem;
     --spacing-36: 3.6rem;
-    
+    --spaciong-28: 2.8rem;
+    --spacing-24: 2.4rem;
+    --spacing-20: 2rem;
+    --spacing-16: 1.6rem;
+    --spacing-12: 1.2rem;
+    --spacing-8: 0.8rem;
 
 
 }
