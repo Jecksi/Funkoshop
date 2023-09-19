@@ -67,6 +67,10 @@ header {
     background-color: var(--primary-900);
 }
 
+
+
+/* @Media queries */
+
 @media(max-width: 802px) {
     .navbar {
         justify-content: center;
@@ -82,3 +86,5 @@ header {
 
     /*Resolucion 514px (Crear menu hamburguesa - JavaScript) */
 }
+
+/* @Media queries */
