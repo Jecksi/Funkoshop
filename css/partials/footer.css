@@ -1,0 +1,38 @@
+.footer {
+  background-color: #30343f;
+  width: 1440px;
+  height: 343px;
+}
+
+.footer_paragraph {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.footer_picture {
+  width: 143px;
+  height: 116.19px;
+  top: 124px;
+  left: 1187px;
+}
+.footer_links {
+  width: 109px;
+  height: 86.5px;
+  top: 153.69px;
+  left: 110px;
+  list-style-type: none;
+}
+
+.navbar__link {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}

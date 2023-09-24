@@ -1,20 +1,17 @@
 /* EXTERNALS */
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 
 /* MISCELANEOUS */
 
-@import url('./misc//normalize.css');
-@import url('./misc/variables.css');
+@import url("./misc//normalize.css");
+@import url("./misc/variables.css");
 
 /* PARTIALS */
-@import url('./partials/header.css');
-@import url('./partials/footer.css');
+@import url("./partials/header.css");
+@import url("./partials/footer.css");
 
 /* PAGINAS */
 
-@import url('./pages/home.css');
-@import url('./pages/nosotros.css');
+@import url("./pages/home.css");
+@import url("./pages/nosotros.css");
