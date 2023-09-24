@@ -1,0 +1,57 @@
+/* EXTERNALS */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+
+/* MISCELANEOUS */
+
+@import url("./misc//normalize.css");
+@import url("./misc/variables.css");
+
+/* PARTIALS */
+@import url("./partials/header.css");
+@import url("./partials/footer.css");
+
+/* PAGINAS */
+
+@import url("./pages/home.css");
+@import url("./pages/nosotros.css");
+
+/*FOOTER */
+.footer {
+  background-color: #30343f;
+  width: 1440px;
+  height: 343px;
+}
+
+.footer_paragraph {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.footer_picture {
+  width: 143px;
+  height: 116.19px;
+  top: 124px;
+  left: 1187px;
+}
+.footer_links {
+  width: 109px;
+  height: 86.5px;
+  top: 153.69px;
+  left: 110px;
+  list-style-type: none;
+}
+
+.navbar__link {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
