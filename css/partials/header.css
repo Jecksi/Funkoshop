@@ -68,7 +68,7 @@ header {
 
 /* @Media queries */
 
-@media (max-width: 51.25em) {
+@media (max-width: 51.5em) {
   .navbar {
     justify-content: center;
     gap: var(--spacing-20);
