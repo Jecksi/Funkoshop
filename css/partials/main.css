@@ -86,19 +86,20 @@ font-family: 'Raleway', sans-serif;*/
   font-family: var(--alternative-font);
   font-size: var(--font-large);
   font-weight: 300;
-  border-bottom: 2px solid var(--primary-solid);
+  border-bottom: 2px solid var(--primary-solid); 
   padding-bottom: var(--spacing-20);
 }
 
 .collection__link {
-  display: inline-block;
+   display: inline-block;
   font-size: var(--font-medium);
   background-color: var(--dark-bg-solid);
   color: var(--light-font-solid);
+  margin-top: 1rem;
   padding: var(--spacing-16) var(--spacing-36);
   border-radius: 50px;
   font-weight: 500;
-  transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out; 
 }
 
 .collection__link:hover {
