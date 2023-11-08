@@ -68,14 +68,14 @@ header {
 
 /* @Media queries */
 
-@media (max-width: 51.5em) {
+@media (max-width: 53.125em) {
   .navbar {
     justify-content: center;
     gap: var(--spacing-20);
   }
 }
 
-@media (max-width: 32.125em) {
+@media (max-width: 34.1875em) {
   .navbar__menu {
     display: none;
     gap: var(--spacing-20);

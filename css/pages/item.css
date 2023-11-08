@@ -1,33 +1,90 @@
 /** COLLECTION **/
 
 .item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    padding: var(--spacing-16) 0;
-  }
-  
-  .item:nth-child(2) .item__info {
-    order: -1;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: var(--spacing-16) 0;
+}
 
- .item__name {
- font-family: var(--base-font);
- font-size: var(--font-display);
- font-weight: 501;
- }
+.item:nth-child(2) .item__info {
+  order: -1;
+}
 
- .item__description {
-    margin-top: var(--spacing-16);
+.item__name {
+  font-family: var(--base-font);
+  font-size: var(--font-display);
+  font-weight: 501;
+}
+
+.item__description {
+  margin-top: var(--spacing-16);
   font-family: var(--alternative-font);
   font-size: var(--font-large);
   font-weight: 400;
   padding-bottom: var(--spacing-20);
- }
+}
 
- .item__price{
-    font-size: var(--font-xlarge);
-    font-weight: 500;
-    margin-bottom: var(--spacing-20); ;
-    
- }
+.item__price {
+  font-size: var(--font-xlarge);
+  font-weight: 500;
+  margin-right: 10rem;
+  margin-bottom: var(--spacing-20);
+}
+
+.item__cart {
+  display: flex;
+  align-items: center;
+  margin-right: 20rem;
+}
+
+.item__input {
+  font-size: var(--font-large);
+  width: 86px;
+  height: 35px;
+  text-align: center;
+}
+
+.item__submit {
+  margin-left: var(--spacing-24);
+  height: 3.3rem;
+  width: 14rem;
+  background-color: var(--primary-900);
+  color: var(--light-bg-solid);
+  font-size: var(--font-small);
+  border: none;
+}
+.item__promo {
+  font-size: var(--font-medium);
+  margin-top: var(--spacing-20);
+  color: var(--secondary-solid);
+  font-weight: 510;
+}
+
+.item__promo a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.group__botons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  gap: 4px;
+}
+
+#subtract {
+  width: 18px;
+  height: 16px;
+}
+
+#add {
+  width: 18px;
+  height: 16px;
+}
+.item__quantity {
+  background-color: black;
+  color: var(--light-bg-solid);
+  font-weight: bold;
+  font-size: var(--font-xsmall);
+}
