@@ -1,0 +1,33 @@
+/** COLLECTION **/
+
+.item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: var(--spacing-16) 0;
+  }
+  
+  .item:nth-child(2) .item__info {
+    order: -1;
+  }
+
+ .item__name {
+ font-family: var(--base-font);
+ font-size: var(--font-display);
+ font-weight: 501;
+ }
+
+ .item__description {
+    margin-top: var(--spacing-16);
+  font-family: var(--alternative-font);
+  font-size: var(--font-large);
+  font-weight: 400;
+  padding-bottom: var(--spacing-20);
+ }
+
+ .item__price{
+    font-size: var(--font-xlarge);
+    font-weight: 500;
+    margin-bottom: var(--spacing-20); ;
+    
+ }

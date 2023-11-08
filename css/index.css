@@ -20,10 +20,12 @@
 
 /* PARTIALS */
 @import url("./partials/header.css");
-@import url("./partials/main.css");
+@import url("./partials/main_index.css");
 @import url("./partials/footer.css");
 
 /* PAGINAS */
 
 @import url("./pages/home.css");
+@import url("./pages/item.css");
 @import url("./pages/nosotros.css");
+
