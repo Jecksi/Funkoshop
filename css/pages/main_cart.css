@@ -29,6 +29,7 @@
 }
 
 .cart__product,
+.cart__product-2,
 .cart__product--item-1,
 .cart__product--item-2 {
   display: flex;
@@ -37,8 +38,19 @@
 .cart__product {
   width: 1, 220px;
   height: 195px;
-  top: 477.15px;
-  left: 110px;
+  margin-top: 48.15px;
+  margin-left: 110px;
+  padding: 16px;
+  border-radius: 25px;
+  justify-content: space-between;
+  border: solid;
+}
+
+.cart__product-2 {
+  width: 1, 220px;
+  height: 193px;
+  margin-top: 48.15px;
+  margin-left: 110px;
   padding: 16px;
   border-radius: 25px;
   justify-content: space-between;
