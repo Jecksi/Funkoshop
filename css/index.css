@@ -1,31 +1,29 @@
 /* EXTERNALS */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css");
-@import url("https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css');
+@import url('https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css');
 
 /* COMPONENTS */
-@import url("./components/buttons.css");
-@import url("./components/card.css");
-@import url("./components/form.css");
-@import url("./components/newsletter.css");
-@import url("./components/slider.css");
-
+@import url('./components/buttons.css');
+@import url('./components/card.css');
+@import url('./components/form.css');
+@import url('./components/newsletter.css');
+@import url('./components/slider.css');
 
 /* MISCELANEOUS */
 
-@import url("./misc//normalize.css");
-@import url("./misc/variables.css");
+@import url('./misc//normalize.css');
+@import url('./misc/variables.css');
 
 /* PARTIALS */
-@import url("./partials/header.css");
-@import url("./partials/main_index.css");
-@import url("./partials/footer.css");
+@import url('./partials/header.css');
+@import url('./partials/main_index.css');
+@import url('./partials/footer.css');
 
 /* PAGINAS */
 
-@import url("./pages/home.css");
-@import url("./pages/item.css");
-@import url("./pages/nosotros.css");
-
+@import url('./pages/home.css');
+@import url('./pages/item.css');
+@import url('./pages/main_cart.css');
+@import url('./pages/nosotros.css');

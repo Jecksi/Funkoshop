@@ -66,7 +66,7 @@
   text-decoration: underline;
 }
 
-.group__botons {
+.group__buttons {
   display: flex;
   flex-direction: column;
   margin-left: 1rem;

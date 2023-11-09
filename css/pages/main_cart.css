@@ -1,0 +1,47 @@
+/* MAIN CART Primer Section */
+
+.cart__title {
+  font-size: var(--font-jumbo);
+  text-transform: uppercase;
+  margin-top: 200px;
+  border-bottom: 5px solid #ff3333;
+  width: 506px;
+  height: 62px;
+  margin-left: 110px;
+  padding: 0px, 0px, 8px, 0px;
+  border: 0px, 0px, 5px, 0px;
+  gap: 10px;
+}
+
+.cart__order {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 501;
+  border: solid;
+  border-color: rgb(247, 244, 244);
+  max-width: 1200px;
+  height: 51px;
+  border-radius: 10px;
+  margin-top: 11rem;
+  border-radius: 10px;
+}
+
+.cart__product,
+.cart__product--item-1,
+.cart__product--item-2 {
+  display: flex;
+}
+
+.cart__item--name {
+}
+.cart__item--licence {
+}
+
+.cart__item--price {
+}
+.cart__item--imput {
+}
+.item__input {
+}
