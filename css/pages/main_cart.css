@@ -34,7 +34,18 @@
   display: flex;
 }
 
-.cart__item--name {
+.cart__product {
+  width: 1, 220px;
+  height: 195px;
+  top: 477.15px;
+  left: 110px;
+  padding: 16px;
+  border-radius: 25px;
+  justify-content: space-between;
+  border: solid;
+}
+
+/* .cart__item--name {
 }
 .cart__item--licence {
 }
@@ -44,4 +55,4 @@
 .cart__item--imput {
 }
 .item__input {
-}
+} */
