@@ -15,7 +15,7 @@
 
 .cart__order {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   text-transform: uppercase;
   font-weight: 501;
@@ -28,43 +28,133 @@
   border-radius: 10px;
 }
 
+/* DISPLAY FLEX */
+
 .cart__product,
 .cart__product-2,
 .cart__product--item-1,
-.cart__product--item-2 {
+.cart__product--item,
+.cart__product--item-2,
+.cart__item-details,
+.content__input__buttons {
   display: flex;
 }
+
+/* DISPLAY FLEX */
 
 .cart__product {
   width: 1, 220px;
   height: 195px;
   margin-top: 48.15px;
-  margin-left: 110px;
   padding: 16px;
   border-radius: 25px;
-  justify-content: space-between;
+  align-items: center;
   border: solid;
+  border-color: rgb(247, 244, 244);
+  justify-content: space-between;
 }
 
 .cart__product-2 {
   width: 1, 220px;
   height: 193px;
   margin-top: 48.15px;
-  margin-left: 110px;
   padding: 16px;
   border-radius: 25px;
   justify-content: space-between;
   border: solid;
 }
 
-/* .cart__item--name {
-}
-.cart__item--licence {
+
+.cart__product--item {
+  width: 410px;
+  height: 118pxpx;
 }
 
-.cart__item--price {
+
+
+/* DETAILS + IMAGE */
+.cart__item--image {
+  width: 118.76px;
+  height: 118px;
 }
-.cart__item--imput {
+
+.cart__item-details {
+  gap: 10px;
+  margin-top: 1.8rem;
+  flex-direction: column;
+  width: 272.75px;
+  height: 89px;
 }
+
+.cart__item--name {
+  font-size: var(--font-medium);
+
+}
+
+.cart__item--licence {}
+
+.cart__item--price {}
+
+/* BUTTONS */
+.content__input__buttons {
+  margin-left: var(--spacing-48);
+
+}
+
+.item__quantity {
+  background-color: var(--primary-solid);
+  margin-top: 1.5px;
+  border: none;
+  transition: .2s;
+
+
+}
+
+.item__quantity:active {
+  transform: scale(0.9);
+}
+
+
+
+#subtract_2 {
+  width: 18px;
+  height: 16px;
+}
+
+#add_2 {
+  width: 18px;
+  height: 16px;
+}
+
+/* BUTTONS */
+
+.cart__item-price-2 {
+  margin-left: var(--spacing-128);
+}
+
+.cart__item--imput {}
+
+.cart__item-price {
+  width: 99px;
+  height: 24px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
 .item__input {
-} */
+  width: 113.48px;
+  height: 40px;
+  gap: 8px;
+}
+
+.component {
+  width: 28px;
+  height: 28px;
+  padding: 1.17px, 1.17px, 1.17px, 1.17px;
+
+}
