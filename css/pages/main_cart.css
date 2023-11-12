@@ -175,31 +175,17 @@
 
   /* RESUMEN */
 
-  .cart__title-2 {
-    font-size: var(--font-jumbo);
-    text-transform: uppercase;
+  .content__resumen {
+    display: flex;
+    flex-direction: row-reverse;
 
   }
 
-
-  .order_grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .caja {
-    grid-area: 2 / 3;
+  .content__resumen h2 {
     text-align: end;
-    width: 506px;
-    height: 62px;
-    margin-top: 200px;
-    padding: 0px, 0px, 8px, 0px;
-    gap: 10px;
+    display: inline-block;
+
+
   }
 
-  .cart__title-2 {
-    display: inline-flex;
-    border-bottom: 5px solid #ff3333;
-    padding: 0px, 0px, 8px, 0px;
-  }
 }
