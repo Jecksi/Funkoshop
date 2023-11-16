@@ -1,0 +1,86 @@
+.titulo{
+    margin-top: 40px;
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.04em;
+    text-align: center;   
+}
+
+.subtitulo{
+    margin-top: 40px;
+    font-family: Raleway;
+font-size: 32px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.04em;
+text-align: center;
+}
+
+
+.registrar{
+margin-top: 40px;
+margin-left: 350px;
+width: 457.2px;
+height: 292px;
+top: 339px;
+left: 491.4px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0.04em;
+text-align: left;
+margin-bottom: 100px;
+}
+
+.boton {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background: #ff3333;
+    width: 103px;
+    height: 39.06px;
+    top: 390.78px;
+    left: 583.26px;
+  }
+
+  .value-registrarse {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #b9b9b9;
+    border-top: none; /* Elimina el borde superior */
+    border-left: none; /* Elimina el borde izquierdo */
+    border-right: none; /* Elimina el borde derecho */
+    border-bottom: 2px solid #ff3333;
+  }
+
+  .value-password {
+    border-top: none; /* Elimina el borde superior */
+    border-left: none; /* Elimina el borde izquierdo */
+    border-right: none; /* Elimina el borde derecho */
+    border-bottom: 2px solid #ff3333;
+  }
+  
+.terminos-azul{
+    color: blue;
+  }
+
+.terminos-font{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
